@@ -1,0 +1,21 @@
+{
+  "name": "RESTfulAPI",
+  "version": "1.0.0",
+  "description": "restful api base on koa",
+  "main": "index.js",
+  "repository": "github.com",
+  "author": "safarishi",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --harmony-async-await app.js"
+  },
+  "dependencies": {
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-logger": "^2.0.0",
+    "koa-router": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
